@@ -37,7 +37,8 @@ body {
     padding: 0.3rem 1rem;
     background-color: rgb(116, 116, 116);
     font-weight: 500;
-    font-size: 13px;
+    font-size: 18px;
+    font-family: 'Shadows Into Light', cursive;
     text-align: center;
     color: #fff;
     backface-visibility: hidden;
@@ -55,7 +56,8 @@ body {
     padding: 0.3rem 1rem;
     background-color: rgb(116, 116, 116);
     font-weight: 500;
-    font-size: 13px;
+    font-size: 18px;
+    font-family: 'Shadows Into Light', cursive;
     text-align: center;
     color: #fff;
     backface-visibility: hidden;
