@@ -43,11 +43,11 @@ function clearBackground() {
 }
 
 function randomColour(e) {
-    function getRandColor() {
+    function getRandColour() {
             let colour = '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
             return colour;
         }
-         e.target.style.backgroundColor = getRandColor();
+         e.target.style.backgroundColor = getRandColour();
     }
 
 sizeButton.addEventListener('click', changeSize);
