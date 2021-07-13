@@ -5,7 +5,7 @@ const clearButton = document.getElementById('clear-button');
 function makeRows(rows, cols) {
   container.style.setProperty('--grid-rows', rows);
   container.style.setProperty('--grid-cols', cols);
-  for (c = 0; c < (rows * cols); c++) {
+  for (i = 0; i < (rows * cols); i++) {
     let cell = document.createElement('div');
     cell.addEventListener('mouseover', randomColour)
     container.appendChild(cell).className = 'grid-element';
